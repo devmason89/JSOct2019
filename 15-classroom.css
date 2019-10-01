@@ -1,0 +1,53 @@
+.css-challenge h1 {
+    color:lightgreen;
+    text-align:center;
+}
+
+h1{
+    color:lightgreen;
+    text-align:center;
+}
+
+h3 {
+    color:blue;
+}
+
+p {
+    color:red;
+}
+#css-challenge {
+ border: 3px solid black;
+ border-radius: 1em;
+ background-color: grey;
+}
+
+.part_one{
+ border:1px solid black;
+ border-radius: 1em;
+ background-color:lightgrey;
+ text-align:center;
+ width: 33%;
+ display: inline-block;
+}
+
+#movies {
+    background-color:lightskyblue;
+    border: 2px solid black;
+    text-align:center;
+}
+
+table,th,td{
+    border: 1px solid black;
+    align-content: center;
+    text-align:center;
+    background-color:lightskyblue;
+}
+
+.title {
+    font-style:italic;
+}
+
+
+
+
+

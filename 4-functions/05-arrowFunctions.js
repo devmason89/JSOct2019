@@ -16,7 +16,7 @@ let cats =(kitten, puppy) => {
     console.log(`I have ${kitten} cat(s) and ${puppy} dog(s)`);
 }
 
-cats(1, 12);       //*if this function was invoked before declared, it wouldn't                        work. expressions(fat arrow) don't get hoisted
+cats(1, 12);       //*if this function was invoked before declared, it wouldn't work. expressions(fat arrow) don't get hoisted
 
 //* concise and block body 
 
@@ -41,3 +41,9 @@ let func = () => console.log('hi'); //*WILL WORK
 
 let func = ()
     =>console.log('hi');  //*THIS IS NOT OKAY AND WILL NOT WORK
+
+    let count = 0;
+for ( ;  count < 9; ++count ) {
+  console.log(count);
+}
+

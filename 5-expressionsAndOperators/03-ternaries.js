@@ -32,3 +32,5 @@ let age = 11;
                 (age >= 18) ? 
                     console.log("Yay! You can vote!") : 
                         console.log("Sorry, you're too young to do anything fun.");
+
+

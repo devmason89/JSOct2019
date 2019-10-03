@@ -25,3 +25,8 @@ switch (typeof example) {
 // All of these solutions will be published in modules on canvas.
 
 if (typeof === 'string') ? console.log('This is a string') : (typeof example === 'number') ? console.log("")
+
+let count = 0;
+for ( ;  count < 9; ++count ) {
+  console.log(count);
+}

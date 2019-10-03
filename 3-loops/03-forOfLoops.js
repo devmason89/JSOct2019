@@ -20,3 +20,9 @@ for (cat of catArray) {
 
 /* for of get the values for each index. for in are for objects.
 //MAIN TAKE AWAY: FOR IN ARE FOR OBJECTS. FOR OF ARE FOR ARRAYS.
+
+
+let seasons = ['spring', 'summer', 'autumn', 'winter'];
+for (s in seasons){ 
+console.log(seasons[s]) 
+}               //* have a question on this! why is it spelling out full name. not a for of loop!

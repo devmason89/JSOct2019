@@ -38,3 +38,21 @@ function separate () {
 separate();
 
 //* Want a for of loop. THAT IS FOR ARRAYS! */
+
+
+
+function numbers(i) {
+    if (i===0) {
+        console.log("the number is even");
+    } else if (i%2===0) {
+        console.log("the number is even");
+    } else {
+        console.log("the number is odd");
+        }
+}
+
+for (let i=0; i<=10; i++) {
+      console.log(i);
+}
+    
+numbers();

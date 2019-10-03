@@ -34,3 +34,35 @@ function introduction(firstName,lastName) {
 
 introduction('Devon', 'Mason');
 
+
+function whatDoesItDo(color) {    
+    if (color !== 'blue' || color !== 'green') {
+       color = 'red';
+    }
+    return color;
+ }; 
+ 
+ console.log(whatDoesItDo());
+
+ 
+
+  function numbers(i) {
+    for (let i=0; i<=10; i++) {
+    console.log(i);
+    if (i===0) {
+        console.log("the number is even");
+    } else if (i%2===0) {
+        console.log("the number is even");
+    } else {
+        console.log("the number is odd");
+        }
+    }
+}
+
+numbers();
+
+
+  
+
+
+ 

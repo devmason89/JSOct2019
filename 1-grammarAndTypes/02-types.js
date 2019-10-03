@@ -63,7 +63,7 @@ console.log(typeof third);
 
 //Objects
 
-let car ={
+let car = {
     color: "red",
     tires: 4,
     extras: "A/C and Radio",

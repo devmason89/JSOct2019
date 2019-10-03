@@ -77,3 +77,8 @@ console.log(total);
 
 //so when JS reads code, it DOES NOT lay out all of those numbers, it totals the buckets (0+1) then (1+2) so it's doing 1 +3
 
+for (let x = 0; x <=10; x++) {
+    function count (x);
+    console.log(x);
+  };
+  
